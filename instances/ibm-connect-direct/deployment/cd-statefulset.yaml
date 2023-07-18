@@ -44,10 +44,10 @@ spec:
       hostIPC: false
       securityContext: 
         
-        fsGroup: 1000710000
-        runAsGroup: 1000710000
+        fsGroup: 45678
+        runAsGroup: 45678
         runAsNonRoot: true
-        runAsUser: 1000710000
+        runAsUser: 45678
         supplementalGroups:
         - 65534
       affinity:        
