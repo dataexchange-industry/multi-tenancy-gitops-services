@@ -95,7 +95,7 @@ ibm-sfg-prod:
 
     resources:
       limits:
-        cpu: 4000m
+        cpu: 2000m
         memory: 8Gi
       requests:
         cpu: 2000m
@@ -170,7 +170,7 @@ ibm-sfg-prod:
     replicaCount: 1
     resources:
       limits:
-        cpu: 4000m
+        cpu: 2000m
         memory: 8Gi
       requests:
         cpu: 2000m
